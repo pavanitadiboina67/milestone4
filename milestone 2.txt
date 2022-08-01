@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color:deeppink">
+
+<h1 style="text-align:center;border:5px solid white;background-color:deeppink">Registration of Student for an Online TCS Exam</h1>
+
+<form style="border:2px solid white">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="rno">Roll No:</label><br>
+  <input type="text" id="rno" name="rno" value=""><br>
+  <p><u><b>Parents Details:</b></u></p>
+  <label for="fname">Father Name:</label>
+  <input type="text" id="fname" name="fname" value=""><t>
+   <label for="mname">Mother Name:</label>
+  <input type="text" id="mname" name="mname" value=""><br>
+  <label for="ano">Aadhar Number:</label><br>
+  <input type="text" id="ano" name="ano" value=""><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address" value=""><br>
+<label for="qua">Qualifications:</label>
+  <select id="qua" name="qua">
+    <option value="ug">UG</option>
+    <option value="pg">PG</option>
+    <option value="secondary school">Secondary school</option>
+    <option value="high school">High school</option>
+    <option value="oth">other</option><br>
+    <input type="text" id="oth" name="oth" value=""><br>
+   <label for="course">Course Completed:</label><br>
+  <select id="course" name="course">
+    <option value="cse">CSE</option>
+    <option value="ece">ECE</option>
+    <option value="it">IT</option>
+    <option value="eee">EEE</option>
+    <option value="others">others</option>
+      <input type="text" id="others" name="others" value=""><br>
+  <label for="cgpa">Xth CGPA:</label><br>
+  <input type="number" id="cgpa" name="cgpa" value=""><br>
+   <label for="cgpa">XIIth CGPA:</label><br>
+  <input type="number" id="cgpa" name="cgpa" value=""><br>
+  <label for="resume">Upload file/Resume:</label><br>
+  <input type="file" id="resume" name="resume" value=""><br><br>
+   <input type="submit" value="Submit">
+   
+      
+</form>
+
+
+</body>
+</html>
